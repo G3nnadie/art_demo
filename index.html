@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Default</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Fonts END -->
+
+  <!-- Libs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+  <!-- Libs END -->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="wrapper">
+    
+    <!-- Header -->
+
+    <header class="header">
+      <div class="container fx align-center">
+        <a href="#" class="logo fx"><img src="img/logo.png" alt="Logo"></a>
+        <nav class="nav fx-between align-center">
+          <ul class="nav__list anchor-link">
+            <li class="nav__item"><a href="#about" class="nav__link">О проекте</a></li>
+            <li class="nav__item"><a href="#exhibition" class="nav__link">Выставка</a></li>
+            <li class="nav__item"><a href="#book" class="nav__link">Книга</a></li>
+            <li class="nav__item"><a href="#jury" class="nav__link">Жюри</a></li>
+            <li class="nav__item"><a href="#team" class="nav__link">Команда</a></li>
+            <li class="nav__item"><a href="#partners" class="nav__link">Партнёры</a></li>
+            <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+          </ul>
+          <div class="header__btn">
+            <a href="#" class="btn btn--primary flex-center open-modal-login">Художнику</a>
+            <div class="anchor-link">
+              <a href="#recording" class="btn btn--primary flex-center">Подать заявку</a>
+            </div>
+          </div>
+        </nav>
+        <button class="navbar-toggle">
+          <span class="icon-bar speed"></span>
+          <span class="icon-bar speed"></span>
+          <span class="icon-bar speed"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero flex-center">
+      <div id="mosaic" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__box">
+          <p class="hero__text">Open call</p>
+          <h1>Арт энциклопедия Петербурга</h1>
+          <p class="hero__text">Всероссийский открытый конкурс по городскому пейзажу</p>
+          <p class="hero__date">22.08.2026 – 20.11.2026</p>
+          <div class="hero__btn fx anchor-link">
+            <a href="#recording" class="btn btn--primary flex-center">Хочу участвовать</a>
+          </div>
+          <div class="count fx align-center" data-date="2026-11-20T00:00:00+03:00">
+            <div class="count__item">
+              <span></span>
+              <span>Дней</span>
+            </div>
+            <div class="count__item">
+              <span></span>
+              <span>Часов</span>
+            </div>
+            <div class="count__item">
+              <span></span>
+              <span>Минут</span>
+            </div>
+            <div class="count__item">
+              <span></span>
+              <span>Секунд</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="title">
+          <p>О проекте</p>
+          <h2>Что вы получаете, отправляя работу</h2>
+        </div>
+        <div class="about__btns flex-center">
+          <a href="#" class="btn btn--second flex-center">Графика</a>
+          <a href="#" class="btn btn--second flex-center">Живопись</a>
+        </div>
+        <div class="swiper-container about__sl">
+          <div class="swiper-wrapper">
+
+            <!-- Item -->
+
+            <div class="swiper-slide about__item">
+              <div class="about__head">
+                <span>1 000 000 ₽</span>
+                <p>призовой фонд</p>
+              </div>
+              <p class="about__title">Как оценивают работы</p>
+              <ul class="list list--check">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Высокопрофессиональное жюри, сбалансированное по направлениям
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  «Слепая» оценка — жюри не видит имён авторов
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Аукцион ваших картин (по желанию) — декабрь 2026
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Международная продажа картин (по желанию) — 2027
+                </li>
+              </ul>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide about__item">
+              <div class="about__head">
+                <span>200</span>
+                <p>работ попадают на выставку</p>
+              </div>
+              <p class="about__title">Long list — 200 работ</p>
+              <ul class="list list--check">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Становитесь участником выставки
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Получаете в подарок книгу «Арт Энциклопедия Петербурга»
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Приглашение на праздничный фуршет
+                </li>
+              </ul>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide about__item">
+              <div class="about__head">
+                <span>3 + 3</span>
+                <p>победителя — по 3 в каждой номинации</p>
+              </div>
+              <p class="about__title">Short list — по 3 победителя в номинациях «Графика» и «Живопись»</p>
+              <ul class="list list--check">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Финансовые сертификаты и подарки от партнёров
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Разворот в книге с подписью председателя жюри
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Участие в телепередачах и интервью СМИ
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Станете героями документального фильма «АЭП»
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <button class="swiper-button-arrow swiper-button-prev flex-center">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="swiper-button-arrow swiper-button-next flex-center">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="about__btn flex-center anchor-link">
+          <a href="#recording" class="btn btn--primary flex-center">Хочу попасть</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exhibition -->
+    
+    <section class="section exhibition" id="exhibition">
+      <div class="container">
+        <div class="title">
+          <p>Выставка</p>
+          <h2>10 дней мероприятий</h2>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="exhibition__item">
+              <p class="exhibition__up">26.11.2026 - Вернисаж</p>
+              <div class="exhibition__img">
+                <img src="img/other/exhibition-1.jpg" alt="Img">
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="exhibition__item">
+              <ul class="list list--check">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Мастер-классы и дискуссионные панели с искусствоведами, архитекторами, фотографами
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Музыкальные концерты и фуршет на вернисаже
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Профессиональные фотосессии с художниками в специальных зонах
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Съёмки бэкстейджа для документального фильма, приглашённые телеканалы
+                </li>
+              </ul>
+              <div class="exhibition__img">
+                <img src="img/other/exhibition-2.jpg" alt="Img">
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="exhibition__item">
+              <p class="exhibition__up">06.12.2026 - Финисаж</p>
+              <div class="exhibition__img">
+                <img src="img/other/exhibition-3.jpg" alt="Img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="exhibition__btn flex-center anchor-link">
+          <a href="#recording" class="btn btn--primary flex-center">Хочу участвовать</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book -->
+
+    <section class="section book" id="book">
+      <div class="container">
+        <div class="title">
+          <p>Книга</p>
+          <h2>Вы можете попасть в книгу «Арт Энциклопедия Петербурга»</h2>
+        </div>
+        <div class="row align-center">
+          <div class="col-6">
+            <p class="book__up">Референс издания</p>
+            <div class="book__img">
+              <img src="img/other/book.png" alt="Img">
+            </div>
+          </div>
+          <div class="col-6">
+            <ul class="book__info">
+              <li>Формат<span>Твёрдый переплёт, А4</span></li>
+              <li>Обложка<span>Суперобложка, золотое тиснение</span></li>
+              <li>Содержание<span>Картина + историческая экспликация</span></li>
+              <li>Тираж РФ<span>1000 экземпляров, русский язык</span></li>
+              <li>Тираж ЮНЕСКО<span>10 экземпляров, английский язык</span></li>
+              <li>Каталогизация<span>ISBN, ведущие библиотеки страны</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="book__btn flex-center anchor-link">
+          <a href="#recording" class="btn btn--primary flex-center">Получить условия</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jury -->
+
+    <section class="section jury" id="jury">
+      <div class="container">
+        <div class="title">
+          <p>Жюри</p>
+          <h2>Максимально сбалансированное жюри</h2>
+        </div>
+        <div class="swiper jury__sl">
+          <div class="swiper-wrapper">
+
+            <!-- Item -->
+
+            <div class="swiper-slide jury__item">
+              <div class="jury__img"><img src="img/other/jury-1.png" alt="Img"></div>
+              <div class="jury__data">
+                <b>Ковальчук А.Н.</b>
+                <span>Член жюри</span>
+                <p>Искусствовед, куратор выставочных проектов, эксперт по русской живописи XIX–XX веков.</p>
+              </div>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide jury__item">
+              <div class="jury__img"><img src="img/other/jury-2.png" alt="Img"></div>
+              <div class="jury__data">
+                <b>Зорькин И.Ю.</b>
+                <span>Член жюри</span>
+                <p>Художник, куратор, эксперт в области современного изобразительного искусства.</p>
+              </div>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide jury__item">
+              <div class="jury__img"><img src="img/other/jury-3.png" alt="Img"></div>
+              <div class="jury__data">
+                <b>Блиок А.Н.</b>
+                <span>Член жюри</span>
+                <p>Искусствовед, автор публикаций о петербургской живописной школе.</p>
+              </div>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide jury__item">
+              <div class="jury__img"><img src="img/other/jury-3.png" alt="Img"></div>
+              <div class="jury__data">
+                <b>Блиок А.Н.</b>
+                <span>Член жюри</span>
+                <p>Искусствовед, автор публикаций о петербургской живописной школе.</p>
+              </div>
+            </div>
+
+          </div>
+          <button class="swiper-button-arrow swiper-button-prev flex-center">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="swiper-button-arrow swiper-button-next flex-center">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+
+    <section class="section team" id="team">
+      <div class="container line-wrap">
+        <div class="title">
+          <p>Команда проекта</p>
+          <h2>Кто делает АЭП</h2>
+        </div>
+        <div class="swiper-container team__sl">
+          <div class="swiper-wrapper">
+
+            <!-- Item -->
+
+            <div class="swiper-slide team__item">
+              <div class="team__img"><img src="img/other/team-1.jpg" alt="Img"></div>
+              <div class="team__data">
+                <b>Габдуллина Лилия</b>
+                <span>Генеральный продюсер</span>
+                <div class="team__box">
+                  <p>Образование</p>
+                  <ul class="list list--default">
+                    <li>Историк (УдГУ, 1994)</li>
+                    <li>Психолог (УдГУ, 1994)</li>
+                    <li>Оргконсультант (ШКУ, РАНХиГС, 2000)</li>
+                    <li>Финансовый директор (ШФМ, РАНХиГС, 2005)</li>
+                    <li>Аспирантура Института мозга человека, РАН (2000)</li>
+                    <li>Hampstead Suburb Garden Institute (London, 2001)</li>
+                    <li>Более 400 курсов по бизнесу, менеджменту, психологии, психотерапии и драматургии</li>
+                  </ul>
+                </div>
+                <div class="team__box">
+                  <p>Опыт работы</p>
+                  <ul class="list list--default">
+                    <li>Генеральный продюсер проекта «Арт Энциклопедия Петербурга» (2025)</li>
+                    <li>Генеральный продюсер анимационного проекта «Ангелы Петербурга»</li>
+                    <li>Консультант по привлечению инвестиций в коммерческом и некоммерческом секторах — работа с банками, частными инвесторами, фондами, грант-операторами и государственными программами</li>
+                    <li>Психолог-эксперт на ТВ «ПЯТЫЙ», «Санкт-Петербург», «LIFE 78», «СТО», «ВОТ» и др.</li>
+                    <li>Председатель оргкомитета городского психологического фестиваля для молодёжи «Живой Диалог» (2015–2019)</li>
+                    <li>Генеральный директор ООО «Фолкэн Ай Консалтинг», управленческий консультант — более 100 корпораций и компаний (1999–2018)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide team__item">
+              <div class="team__img"><img src="img/other/team-2.jpg" alt="Img"></div>
+              <div class="team__data">
+                <b>Архипов Валерий Валентинович</b>
+                <span>Председатель жюри</span>
+                <div class="team__box">
+                  <p>Образование</p>
+                  <ul class="list list--default">
+                    <li>Сценограф (МХУ памяти 1905г., театральное отделение, 1984)</li>
+                    <li>Художник (ЛВХПУ им. В.И. Мухиной, ДПИ, 1987)</li>
+                    <li>Художник-постановщик, художник по костюму (ВГИК, 1993)</li>
+                  </ul>
+                </div>
+                <div class="team__box">
+                  <p>Опыт работы, звания, награды</p>
+                  <ul class="list list--default">
+                    <li>Заслуженный художник Российской Федерации (2009)</li>
+                    <li>Декан художественного факультета ВГИК (с 2009)</li>
+                    <li>Профессор, академик Российской Академии Художеств</li>
+                    <li>Член Гильдии художников кино и ТВ Союза кинематографистов Российской Федерации</li>
+                    <li>Член Московского Союза Художников</li>
+                    <li>Награждён грамотами, благодарностями, Серебряной и Золотой медалями, медалью И.И. Шувалова Российской Академии Художеств</li>
+                    <li>Художник-постановщик более 40 международных и российских фильмов и сериалов</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide team__item">
+              <div class="team__img"><img src="img/other/team-3.jpg" alt="Img"></div>
+              <div class="team__data">
+                <b>Боровская Елена Анатольевна</b>
+                <span>Научный куратор проекта</span>
+                <div class="team__box">
+                  <p>Образование</p>
+                  <ul class="list list--default">
+                    <li>Искусствовед (Институт живописи, скульптуры и архитектуры имени И.Е. Репина, 1974)</li>
+                  </ul>
+                </div>
+                <div class="team__box">
+                  <p>Опыт работы, звания и награды</p>
+                  <ul class="list list--default">
+                    <li>Преподаватель истории искусства, профессор (СПбАХ, с 1998)</li>
+                    <li>Преподаватель истории искусства, заведующая отделением истории искусств (СПбХУ им. Н.К. Рериха, 1993–2022)</li>
+                    <li>Научный сотрудник, аспирант, заведующая отделом научной информации (ЛенЗНИИЭП, 1974–1993)</li>
+                    <li>Кандидат архитектуры (1990), доктор искусствоведения (2012)</li>
+                    <li>Автор более 140 научных публикаций (4 монографии, 130 научных статей и учебных пособий)</li>
+                    <li>Почётный член Российской Академии художеств, член СХ РФ, Союза архитекторов РФ, Международной ассоциации искусствоведов</li>
+                    <li>Международная премия им. Н. Рериха «Достижения в педагогике и просветительстве» (2005), Грамота Министерства Культуры РФ «Лучший преподаватель творческого ВУЗа СПб» (2019), Медаль СХ РФ «200 лет Императорского общества поощрения художеств» (2021), Золотая медаль ТОО «СХ России» «Духовность. Традиции. Мастерство» (2022), Медаль СХ СПб «За сохранение художественного наследия России» (2025)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide team__item">
+              <div class="team__img"><img src="img/other/team-4.jpg" alt="Img"></div>
+              <div class="team__data">
+                <b>Музырина Ирина Анатольевна</b>
+                <span>Куратор выставки проекта</span>
+                <div class="team__box">
+                  <p>Образование</p>
+                  <ul class="list list--default">
+                    <li>Художник, педагог (ГБПОУ СК «Ставропольское краевое художественное училище», 1998)</li>
+                    <li>Искусствовед (СПб Академия художеств им. Ильи Репина, 2014)</li>
+                  </ul>
+                </div>
+                <div class="team__box">
+                  <p>Опыт работы и звания</p>
+                  <ul class="list list--default">
+                    <li>Председатель РО Общероссийской общественной организации «Творческий Союз Художников России» по г. Санкт-Петербург (с 2016)</li>
+                    <li>Заместитель председателя РО ОООО «Творческий Союз Художников России» СПб (с 2010)</li>
+                    <li>Директор выставочного зала в ТСХ СПб (2005–2010)</li>
+                    <li>Основатель и куратор «Галерея IFA» (2005–2010)</li>
+                    <li>Куратор, арт-менеджер, специалист-экспозиционист в галерее «Гильдия мастеров» (2002–2004)</li>
+                    <li>Полномочный представитель президента ТСХР в СЗФО, член Координационного Совета творческих союзов СПб</li>
+                    <li>Художественный руководитель проекта «ЖИЗНЬ.RU.ВЕРА»</li>
+                    <li>Художник, участница персональных и коллективных выставок в СПб, России и за рубежом; организатор и куратор многих выставок на территории России</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+
+            <div class="swiper-slide team__item">
+              <div class="team__img"><img src="img/other/team-5.jpg" alt="Img"></div>
+              <div class="team__data">
+                <b>Третьяков Олег Александрович</b>
+                <span>PR-директор</span>
+                <div class="team__box">
+                  <p>Образование</p>
+                  <ul class="list list--default">
+                    <li>Журналист (ЛГУ, 1993)</li>
+                  </ul>
+                </div>
+                <div class="team__box">
+                  <p>Опыт работы и звания</p>
+                  <ul class="list list--default">
+                    <li>Главный редактор газеты «Деловой Петербург» (1993–2011)</li>
+                    <li>Медиа-холдинг «Ragrad Video» (2011–2012)</li>
+                    <li>Журнал «Эксперт Северо-Запад» (2012–2013)</li>
+                    <li>Президент Альянса независимых региональных издателей (2010)</li>
+                    <li>Издатель интернет-издания «Мойка78» (с 2017)</li>
+                    <li>Издатель «Агентство Бизнес Новостей» (с 2023)</li>
+                    <li>Эксперт бизнес-школы «Вверх» (2015)</li>
+                    <li>Президент Лиги журналистов Санкт-Петербурга (2006)</li>
+                    <li>Член Общественной палаты РФ (2005), руководитель подкомиссии по журналистской этике (2006)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+          <button class="swiper-button-arrow swiper-button-prev flex-center">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="swiper-button-arrow swiper-button-next flex-center">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <hr class="line-block">
+      </div>
+    </section>
+
+    <!-- Partners -->
+
+    <section class="section partners" id="partners">
+      <div class="container">
+        <div class="title">
+          <p>Партнёры</p>
+          <h2>Кто поддерживает проект</h2>
+        </div>
+        <div class="partners__wrap">
+          <div class="partners__row fx fx-wrap fx-center">
+            <div class="partners__item flex-center"><img src="img/partners/1.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/2.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/3.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/4.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/5.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/6.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/7.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/8.png" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/9.jpg" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/10.jpg" alt="Img"></div>
+            <div class="partners__item flex-center"><img src="img/partners/11.jpg" alt="Img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recording -->
+
+    <section class="section recording" id="recording">
+      <div class="container">
+        <div class="title">
+          <p>Регистрация</p>
+          <h2>Подать заявку на участие</h2>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p class="recording__text">Оставьте контакты — мы пришлём инструкцию по загрузке работы и форму согласия на использование фрагмента картины в промо-материалах проекта.</p>
+          </div>
+          <div class="col-6">
+            <form action="#" class="form recording__form">
+              <label class="form__field">
+                <span class="form__name">Имя художника</span>
+                <input type="text" required>
+              </label>
+              <label class="form__field">
+                <span class="form__name">Email</span>
+                <input type="text" required>
+              </label>
+              <div class="check">
+                <label class="check__item">
+                  <input type="checkbox">
+                  <span class="check__name">Согласен(а) на обработку персональных данных</span>
+                </label>
+                <label class="check__item">
+                  <input type="checkbox">
+                  <span class="check__name">Согласен(а) на использование фрагмента работы в промо-материалах проекта</span>
+                </label>
+              </div>
+              <div class="form__btn fx">
+                <button class="btn btn--primary flex-center">Хочу участвовать</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer__body fx fx-between">
+          <div class="footer__logo flex-center"><img src="img/logo-footer.png" alt="Logo"></div>
+          <ul class="contacts fx fx-between">
+            <li><a href="tel:+79000000000">+7 900 000-00-00</a></li>
+            <li><a href="mailto:">info@aep-art.ru</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+            <li><a href="#" target="_blank">Telegram</a></li>
+          </ul>
+        </div>
+        <div class="footer__bott fx fx-between align-center">
+          <p>&copy; 2026 Арт Энциклопедия Петербурга</p>
+          <p><a href="#">Политика обработки данных</a></p>
+        </div>
+        <p class="devby text-center">Powered by <a href="#" target="_blank">MVM Platform</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Order -->
+
+  <!-- <div class="order-sticky fx fx-between align-center anchor-link">
+    <span>Приём заявок до 20.11.2026</span>
+    <a href="#recording" class="btn btn--primary flex-center">Подать заявку</a>
+  </div> -->
+
+  <!-- Modal -->
+
+  <div class="modal modal--login">
+    <div class="fullScreen flex-center">
+      <div class="modal__box">
+        <button class="modal__close">
+          <i class="fa-solid fa-close"></i>
+        </button>
+        <div class="title">
+          <h2>Вход для художника</h2>
+        </div>
+        <form action="#" class="form recording__form">
+          <label class="form__field">
+            <span class="form__name">Email</span>
+            <input type="text" required>
+          </label>
+          <label class="form__field">
+            <span class="form__name">Пароль</span>
+            <input type="password" required>
+          </label>
+          <div class="check">
+            <label class="check__item">
+              <input type="checkbox">
+              <span class="check__name">Согласен(а) на обработку персональных данных</span>
+            </label>
+            <label class="check__item">
+              <input type="checkbox">
+              <span class="check__name">Согласен(а) на использование фрагмента работы в промо-материалах проекта</span>
+            </label>
+          </div>
+          <div class="form__btn flex-center">
+            <button class="btn btn--primary flex-center">Войти</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="libs/swiper/swiper.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+  <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>
